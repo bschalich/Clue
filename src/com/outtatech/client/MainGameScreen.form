@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.6" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="leaveGameButton" min="-2" pref="109" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="suspectBox1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="suspectBox2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="suspectBox3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="suspectBox4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="suspectBox5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="suspectBox6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="vehicleBox1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="vehicleBox2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="vehicleBox3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="vehicleBox4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="vehicleBox5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="vehicleBox6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="locationBox9" min="-2" max="-2" attributes="0"/>
+                                              <Component id="locationBox8" min="-2" max="-2" attributes="0"/>
+                                              <Component id="locationBox6" min="-2" max="-2" attributes="0"/>
+                                              <Component id="locationBox5" min="-2" max="-2" attributes="0"/>
+                                              <Component id="locationBox4" min="-2" max="-2" attributes="0"/>
+                                              <Component id="locationBox3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="locationBox2" min="-2" max="-2" attributes="0"/>
+                                              <Component id="locationBox1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="locationBox7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="actionImage1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="actionImage2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                  <Component id="hintImage1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="hintImage2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="hintImage3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="hintImage4" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="hintImage5" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="hintImage6" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jScrollPane2" min="-2" pref="422" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="locationImage1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="locationImage2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="locationImage3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="locationImage4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="locationImage5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="locationImage6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="locationImage7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="locationImage8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="locationImage9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="285" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="463" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" pref="247" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="optionsButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="instructionsButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="endTurnButton" min="-2" max="-2" attributes="0"/>
+                                  <Component id="accuseButton" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Component id="jScrollPane3" alignment="1" min="-2" pref="111" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="111" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="optionsButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="instructionsButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="accuseButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="endTurnButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="locationImage1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="locationImage2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="locationImage3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="locationImage4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="locationImage5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="locationImage6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="locationImage7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="locationImage8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="locationImage9" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="actionImage1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="actionImage2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hintImage1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hintImage2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hintImage3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hintImage4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hintImage5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hintImage6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="suspectBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="locationBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="suspectBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="locationBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="suspectBox3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="locationBox3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="suspectBox4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="locationBox4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="suspectBox5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="locationBox5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="suspectBox6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="locationBox6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="locationBox7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="vehicleBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="locationBox8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="vehicleBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="locationBox9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="vehicleBox3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="vehicleBox4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="vehicleBox5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="vehicleBox6" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane2" alignment="0" min="-2" pref="325" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="leaveGameButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="275" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Game Log:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="gameLog">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="optionsButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Options"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="optionsButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="instructionsButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Instructions"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="instructionsButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="accuseButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Accuse!"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="accuseButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="endTurnButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="End Turn"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="endTurnButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Your Hand:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="playerList">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="1" rowCount="5">
+                <Column editable="false" title="Players:" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="selectionModel" type="javax.swing.ListSelectionModel" editor="org.netbeans.modules.form.editors2.JTableSelectionModelEditor">
+              <JTableSelectionModel selectionMode="0"/>
+            </Property>
+            <Property name="showHorizontalLines" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="playerListMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JCheckBox" name="suspectBox1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Suspect1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="suspectBox2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Suspect2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="suspectBox3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Suspect3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="suspectBox4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Suspect4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="suspectBox5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Suspect5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="suspectBox6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Suspect6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="vehicleBox1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vehicle1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="vehicleBox2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vehicle2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="vehicleBox3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vehicle3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="vehicleBox4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vehicle4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="vehicleBox5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vehicle5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="vehicleBox6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vehicle6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="locationBox1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Location1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="locationBox2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Location2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="locationBox3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Location3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="locationBox4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Location4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="locationBox5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Location5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="locationBox6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Location6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="locationBox7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Location7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="locationBox8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Location8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="locationBox9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Location9"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="leaveGameButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Leave Game"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="leaveGameButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="locationImage1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="locationImage2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="locationImage3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="locationImage4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="locationImage5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="locationImage6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="locationImage7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="locationImage8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="locationImage9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="actionImage1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="AC1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="actionImage1MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="actionImage2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="AC2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="actionImage2MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hintImage1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HC1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hintImage2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HC2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hintImage3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HC3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hintImage4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HC4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hintImage5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HC5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hintImage6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HC6"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
